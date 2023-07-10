@@ -1,8 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
-import {BrowserRouter as Router, Route,Switch} from 'react-router-dom';
-import MyBioScreen from './components/MyBioScreen';
+
 import { useState } from 'react';
 
 function App() {
