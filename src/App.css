@@ -1,6 +1,53 @@
 .App {
   text-align: center;
 }
+.container {
+ height: 812px;
+ width:375px;
+ margin:0 auto;
+ background-color: azure;
+ border-color: black;
+ border-width: 3px;
+ border-radius: 10px;
+}
+.saveButtonDiv{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+.skillContainer{
+  
+}
+
+.saveButton{
+  border-radius: 15px;
+  background-color: red;
+  width:200px;
+}
+.aboutmetext {
+  margin-left: 10px;
+}
+.aboutText{
+  margin: 10px;
+  padding:10px;
+  background-color:lightsteelblue;
+  border-radius: 5px;
+}
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.buttonSTD {
+  height:30px;
+  margin: 10px;
+}
+.header {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
 
 .App-logo {
   height: 40vmin;
@@ -13,16 +60,6 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
 .App-link {
   color: #61dafb;
